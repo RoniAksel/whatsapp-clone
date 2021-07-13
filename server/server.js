@@ -10,7 +10,7 @@ const Chats = require("./chats-db");
 // Initializing Server
 const app = express(); // express is a function that returns an instance
 app.use(express.json()); // this makes it easier to process JSON requests
-app.listen(8080, () => console.log("Our server is listening on port 8080... ")); // Now we're live!
+app.listen(process.env.PORT||8080, () => console.log("Our server is listening on port 8080... ")); // Now we're live!
 app.use(
   //enable cross-origin requests
   cors({
