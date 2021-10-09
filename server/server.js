@@ -23,7 +23,7 @@ app.use(cookieParser()); //  Middleware that enable working with cookies
 // Connecting to MongoDB
 
 const mongoURL = 
-    "mongodb+srv://roniaskel:aksel1992@cluster0.hedle.mongodb.net/netApp"
+    "mongodb+srv://roniaskel:_______@cluster0.hedle.mongodb.net/netApp"
 mongoose.set("useUnifiedTopology", true);
 
 mongoose
